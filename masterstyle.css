@@ -1,0 +1,272 @@
+* {
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-weight: 600; */
+    /* background-color: #EF93BC; */
+    /* background-color: #F7C1BB; */
+    scroll-behavior: smooth;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+body {
+    /* background-color: #F7C1BB; */
+}
+
+.bg-main {
+    background: url(images/main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+a:hover {
+    color: #DC136C;
+    text-decoration: none;
+}
+
+.wrap-70 {width: 70%; margin: 0 auto;}
+.wrap-90 {width: 90%; margin: 0 auto;}
+
+.zindex {position: absolute; z-index: -1;}
+
+.vh-10 {height: 10vh;}
+.vh-15 {height: 15vh;}
+.vh-20 {height: 20vh;}
+.vh-40 {height: 40vh;}
+.vh-50 {height: 50vh;}
+.vh-60 {height: 60vh;}
+.vh-70 {height: 70vh;}
+.vh-90 {height: 90vh;}
+.vw-100 {width: 100vw;}
+
+.vw-30 {width: 30vw;}
+.vw-25 {width: 25vw;}
+
+.mt-100 {margin-top: 100px;}
+.mt-200 {margin-top: 200px;}
+
+.pink-overlay {background-color: rgba(146, 89, 115, 0.295)}
+.overlay {background-color: rgba(255, 255, 255, 0.664)}
+
+.bg-clear {background: rgba(0, 0, 0, 0);}
+
+.bg-cake-1 {
+    background: url(images/birthday-birthday-cake-cake-1414234.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-cake-2 {
+    background: url(images/baked-baking-blur-806363.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.h-10 {height: 10% !important;}
+.h-15 {height: 15% !important;}
+.h-20 {height: 20% !important;}
+.h-40 {height: 40% !important;}
+.h-60 {height: 60% !important;}
+.h-85 {height: 85% !important;}
+.h-80 {height: 80% !important;}
+.h-90 {height: 90% !important;}
+.h-100 {height: 100% !important;}
+
+.h-300px {height: 300px !important;}
+
+.w-150px {width: 150px !important;}
+.w-250px {width: 250px !important;}
+
+.hw-250px {height: 250px; width: 250px}
+
+.fsize-20 {font-size: 20px; line-height: 25px;}
+.fsize-25 {font-size: 25px; line-height: 25px;}
+.fsize-35 {font-size: 35px; line-height: 35px;}
+.fsize-45 {font-size: 45px; line-height: 45px;}
+.fsize-60 {font-size: 60px; line-height: 60px;}
+.fsize-100 {font-size: 100px; line-height: 90px;}
+
+.nav-link:hover {
+    border-bottom: 3px #DC136C solid;
+    
+}
+
+.fweight-600 {font-weight: 600}
+
+.theme-font {font-family: 'Staatliches', cursive;}
+.font-satisfy {font-family: 'Satisfy', cursive;}
+
+
+.tcolor-white {color: #ffffff;}
+.tcolor-pink {color: #DC136C;}
+.tcolor-yellow {color:rgb(209, 209, 0);}
+.bg-lightpink {background: #F7C1BB;}
+.bg-pink {background: #E1B0AA;}
+.bg-medpink {background: #CB9E9A;}
+
+.underline {border-bottom: #DC136C 3px solid;}
+
+.border-pink {
+    border: #DC136C 3px solid;
+}
+
+
+.item {border-radius: 15px;}
+
+.bg-cake {
+    background: url(images/products/cakes.jpg);
+}
+.bg-donut {
+    background: url(images/products/donuts.jpg);
+}
+.bg-pie {
+    background: url(images/products/pie.jpg);
+}
+.bg-macaroon {
+    background: url(images/products/macaroons.jpg);
+}
+.bg-cookie {
+    background: url(images/products/cookies.jpg);
+}
+.bg-cupcake {
+    background: url(images/products/cupcake.jpg);
+}
+.bg-cake, .bg-donut, .bg-cookie, .bg-cupcake, .bg-macaroon, .bg-pie {
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+
+
+.bg-gal-1 {background-image: url("images/gallery/baked-baked-goods-cakes-2612373.jpg");}
+.bg-gal-2 {background-image: url("images/gallery/baked-bakery-baking-3026804.jpg");}
+.bg-gal-3 {background-image: url("images/gallery/baked-cake-confection-1179002.jpg");}
+.bg-gal-4 {background-image: url("images/gallery/baked-baking-close-up-3065576.jpg");}
+.bg-gal-5 {background-image: url("images/gallery/baked-goods-cake-close-up-1721934.jpg");}
+.bg-gal-8 {background-image: url("images/gallery/baked-baking-biscuits-298485.jpg");}
+.bg-gal-7 {background-image: url("images/gallery/birthday-break-caramel-461430.jpg");}
+.bg-gal-6 {background-image: url("images/gallery/chocolate-close-up-confection-2955820.jpg");}
+
+
+
+
+
+.bg-gal-1, .bg-gal-2,  .bg-gal-3,
+.bg-gal-4, .bg-gal-5,  .bg-gal-6,
+.bg-gal-7, .bg-gal-8{
+    background-position: center;
+    background-size: cover;
+}
+
+.text-shadow {
+    text-shadow: rgb(236, 141, 157) 3px 6px ;
+}
+
+.theme-white-btn {
+    background: whitesmoke;
+    color: #DC136C;
+    font-style: bold;
+    font: 25px;
+    padding: 5px 20px;
+    border-radius: 30px ;
+}
+
+.bg-cust-1 {background: url(https://randomuser.me/api/portraits/men/32.jpg);}
+.bg-cust-2 {background: url(https://randomuser.me/api/portraits/women/44.jpg);}
+.bg-cust-3 {background: url(https://pbs.twimg.com/profile_images/974603248119222272/N5PLzyan.jpg);}
+.bg-cust-4 {background: url(https://randomuser.me/api/portraits/women/26.jpg);}
+
+.bg-cust-1, 
+.bg-cust-2, 
+.bg-cust-3, 
+.bg-cust-4 {
+    background-position: center;
+    background-size: cover;
+}
+
+.h-10 {height: 10% !important;}
+
+.pt-100 {padding-top: 100px;}
+
+
+/*------------NAV-----------------*/
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+  
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+  
+.sidenav a:hover {
+	color: #607dff;
+}
+  
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+  
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+
+
+
+/* RESPONSIVE-INDEX */
+@media (min-width: 1200px) {
+    .nav-1200, .gallery-1200 {display: block;}
+    .nav-992 {display: none;}
+
+    
+    .face-768{display: none;} 
+    .gallery-768 {display: none;}
+    .reviews-768 {display: none;}
+    .contact-768 {display: none;}
+    .footer-768 {display: none;}
+    .bakery-768 {display: none;}
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .nav-992{display: block;}
+    
+    .nav-1200, .contact-768, .footer-768, .gallery-768, .reviews-768 {display: none;}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .nav-992{display: block;}
+    
+    .nav-1200, .contact-768, .footer-768, .gallery-768, .reviews-768  {display: none;}
+}
+
+@media (max-width: 768px) {
+    .nav-992, .contact-768, .footer-768, .gallery-768, .reviews-768, .face-768, .bakery-768 {display: block;}
+    
+    .nav-1200, .contact-1200, .footer-1200, .gallery-1200, .reviews-1200, .face-1200, .bakery-1200  {display: none;}
+}
